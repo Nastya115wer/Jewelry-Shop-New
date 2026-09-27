@@ -1,0 +1,107 @@
+// Mock-данные каталога. В реальном проекте — БД.
+module.exports = [
+  {
+    id: 1,
+    name: 'Кольцо «Вечность»',
+    category: 'rings',
+    material: 'Золото 585',
+    gemstone: 'Бриллиант 0.5 карат',
+    price: 89900,
+    stock: 5,
+    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400',
+    description: 'Классическое обручальное кольцо с бриллиантом в белом золоте. Символ вечной любви.',
+    rating: 4.9,
+    createdAt: '2025-01-15T10:00:00.000Z'
+  },
+  {
+    id: 2,
+    name: 'Серьги «Капля росы»',
+    category: 'earrings',
+    material: 'Платина',
+    gemstone: 'Сапфир 0.8 карат',
+    price: 124500,
+    stock: 3,
+    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400',
+    description: 'Изысканные серьги с сапфирами. Подходят для вечерних выходов.',
+    rating: 4.8,
+    createdAt: '2025-01-20T10:00:00.000Z'
+  },
+  {
+    id: 3,
+    name: 'Колье «Лунный свет»',
+    category: 'necklaces',
+    material: 'Серебро 925',
+    gemstone: 'Лунный камень',
+    price: 45600,
+    stock: 7,
+    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400',
+    description: 'Нежное колье с лунным камнем. Идеально для повседневного образа.',
+    rating: 4.7,
+    createdAt: '2025-02-01T10:00:00.000Z'
+  },
+  {
+    id: 4,
+    name: 'Браслет «Золотая нить»',
+    category: 'bracelets',
+    material: 'Золото 750',
+    gemstone: 'Нет',
+    price: 156000,
+    stock: 2,
+    image: 'https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=400',
+    description: 'Тонкий золотой браслет ручной работы. Минимализм и элегантность.',
+    rating: 4.9,
+    createdAt: '2025-02-10T10:00:00.000Z'
+  },
+  {
+    id: 5,
+    name: 'Кольцо «Роза ветров»',
+    category: 'rings',
+    material: 'Золото 585',
+    gemstone: 'Рубин 0.3 карат',
+    price: 67200,
+    stock: 4,
+    image: 'https://images.unsplash.com/photo-1603561596112-0a132b757442?w=400',
+    description: 'Кольцо с рубином в дизайнерской оправе. Для ярких личностей.',
+    rating: 4.6,
+    createdAt: '2025-02-15T10:00:00.000Z'
+  },
+  {
+    id: 6,
+    name: 'Серьги «Изумрудный сад»',
+    category: 'earrings',
+    material: 'Золото 585',
+    gemstone: 'Изумруд 1.0 карат',
+    price: 198000,
+    stock: 1,
+    image: 'https://images.unsplash.com/photo-1631982690223-8aa4be0a2497?w=400',
+    description: 'Роскошные серьги с изумрудами. Эксклюзивная ручная работа.',
+    rating: 5.0,
+    createdAt: '2025-03-01T10:00:00.000Z'
+  },
+  {
+    id: 7,
+    name: 'Браслет «Жемчужный бриз»',
+    category: 'bracelets',
+    material: 'Серебро 925',
+    gemstone: 'Жемчуг',
+    price: 38900,
+    stock: 6,
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400',
+    description: 'Браслет с натуральным жемчугом. Морская свежесть в каждой бусине.',
+    rating: 4.5,
+    createdAt: '2025-03-05T10:00:00.000Z'
+  },
+  {
+    id: 8,
+    name: 'Колье «Звёздная пыль»',
+    category: 'necklaces',
+    material: 'Платина',
+    gemstone: 'Бриллианты россыпью',
+    price: 245000,
+    stock: 2,
+    image: 'https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?w=400',
+    description: 'Колье с россыпью бриллиантов. Блеск, достойный красной дорожки.',
+    rating: 4.9,
+    createdAt: '2025-03-10T10:00:00.000Z'
+  }
+];
