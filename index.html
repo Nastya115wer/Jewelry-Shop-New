@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💎 Luxe Jewelry — Ювелирный магазин</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <div class="logo">💎 Luxe Jewelry</div>
+      <nav>
+        <a href="#" data-cat="">Все</a>
+        <a href="#" data-cat="rings">Кольца</a>
+        <a href="#" data-cat="earrings">Серьги</a>
+        <a href="#" data-cat="necklaces">Колье</a>
+        <a href="#" data-cat="bracelets">Браслеты</a>
+      </nav>
+      <div class="cart">🛒 <span id="cartCount">0</span></div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Роскошь в каждой детали</h1>
+      <p>Украшения ручной работы из золота, платины и серебра</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="filters">
+      <input type="text" id="search" placeholder="🔍 Поиск украшений...">
+      <select id="sort">
+        <option value="">Сортировка</option>
+        <option value="price-asc">Цена ↑</option>
+        <option value="price-desc">Цена ↓</option>
+        <option value="rating">По рейтингу</option>
+      </select>
+    </div>
+
+    <div id="products" class="products"></div>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="modalClose">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Luxe Jewelry • API для Postman: <code>/api</code></p>
+    </div>
+  </footer>
+
+  <!-- AI-виджет: внутри body, до script -->
+  <button id="aiToggle" class="ai-toggle" type="button" aria-label="Открыть AI-чат">💬</button>
+
+  <div id="aiWidget" class="ai-widget" role="dialog" aria-label="AI-консультант">
+    <div class="ai-header">
+      <span>💎 AI-консультант</span>
+      <button id="aiClose" class="ai-close" type="button" aria-label="Закрыть">✕</button>
+    </div>
+
+    <div id="aiMessages" class="ai-messages">
+      <div class="ai-message ai-bot">
+        Здравствуйте! Помогу подобрать украшение. Что вы ищете?
+      </div>
+    </div>
+
+    <form id="aiForm" class="ai-form">
+      <input
+        type="text"
+        id="aiInput"
+        placeholder="Например: кольцо с бриллиантом до 100000..."
+        autocomplete="off"
+        maxlength="2000"
+      >
+      <button type="submit" id="aiSend" aria-label="Отправить">➤</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
